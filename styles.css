@@ -33,18 +33,18 @@ h1{
   margin: auto;
   justify-content: center;
   padding: 10px;
-  color: white;
   font-size: 18px;
   width: 150px;
   border-radius: 10px;
   border: transparent;
   margin-bottom: 160px;
-  background: linear-gradient(to bottom, #1781d2, #7badfe);
-  transform: scale(1.2);
-}
-.btn:hover{
   background: white;
   color:  #1781d2;
-  box-shadow: 0 15px 35px rgba(71, 120, 205, 0.6);
-  transition: 1.5s,ease-in;
+  box-shadow: 0 5px 5px rgba(71, 120, 205, 0.6);
+  transition: all 0.4s ease;
+}
+.btn:hover{
+  background: linear-gradient(to bottom, #1781d2, #7badfe);
+  color: white;
+  transform: scale(1.2);
 }
