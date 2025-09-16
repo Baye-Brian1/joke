@@ -40,4 +40,11 @@ h1{
   border: transparent;
   margin-bottom: 160px;
   background: linear-gradient(to bottom, #1781d2, #7badfe);
+  transform: scale(1.2);
+}
+.btn:hover{
+  background: white;
+  color:  #1781d2;
+  box-shadow: 0 15px 35px rgba(71, 120, 205, 0.6);
+  transition: 1.5s,ease-in;
 }
